@@ -88,6 +88,7 @@ class Player {
             this.x+=this.speed;
         }
     }
+    // adding updates....
     update() {
         this.input();
         if (this.x > WIDTH-this.w){
